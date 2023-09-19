@@ -1,4 +1,3 @@
-### Oi!!! Eu sou Silvio Gongo. bem-vindo ao meu github.🚀
 ### Hi!!! I'm Silvio Gongo. welcome in my github.🚀
 
 
