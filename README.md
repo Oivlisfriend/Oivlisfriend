@@ -16,7 +16,7 @@ const Sílvio = (quest, developer > 2y) => {
       return `${VsCode} + ${Figma} + ${Git} + ${Insomnia}`;
   }
   
-  let learning = ["Goolan", "Python", "SwiftUI"];
+  let learning = ["Rust", "Python", "SwiftUI"];
 }
 
 ```
