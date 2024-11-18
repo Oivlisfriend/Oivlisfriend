@@ -10,7 +10,7 @@ const Sílvio = (quest, developer > 2y) => {
       return `${Javascript} + ${HTML, CSS}`;
     
     case "Frameworks and Libs":
-      return ["Reactjs","TypeSript", "Tailwind.css", "React-native", "Node.js"];
+      return ["Reactjs","TypeSript", "React-native", "Node.js"];
     
     case "Tools":
       return `${VsCode} + ${Figma} + ${Git} + ${Insomnia}`;
