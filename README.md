@@ -3,21 +3,41 @@
 
 ```js
 
-const Sílvio = (quest, developer > 2y) => {
+import Foundation
 
-  switch (quest) {
-    case "Stacks":
-      return `${Javascript} + ${HTML, CSS}`;
-    
-    case "Frameworks and Libs":
-      return ["Reactjs","TypeSript", "React-native", "Node.js"];
-    
-    case "Tools":
-      return `${VsCode} + ${Figma} + ${Git} + ${Insomnia}`;
-  }
-  
-  let learning = ["Rust", "Python", "SwiftUI", "UIKit"];
+enum Quest {
+    case stacks
+    case frameworksAndLibs
+    case tools
 }
+
+struct Silvio {
+    var quest: Quest
+    var developerExperience: Int = 2 // Experiência mínima
+
+    func getAnswer() -> String {
+        switch quest {
+        case .stacks:
+            return "\(Javascript) + \(HTML) + \(CSS)"
+            
+        case .frameworksAndLibs:
+            return ["Reactjs", "TypeScript", "React-native", "Node.js"].joined(separator: ", ")
+            
+        case .tools:
+            return "\(VsCode) + \(Figma) + \(Git) + \(Insomnia)"
+        }
+    }
+    
+    var learning: [String] {
+        return ["Rust", "Python", "SwiftUI", "UIKit"]
+    }
+}
+
+let silvio = Silvio(quest: .frameworksAndLibs)
+print(silvio.getAnswer()) // "Reactjs, TypeScript, React-native, Node.js"
+
+print(silvio.learning) // ["Rust", "Python", "SwiftUI", "UIKit"]
+
 
 ```
 
