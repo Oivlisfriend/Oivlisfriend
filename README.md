@@ -24,7 +24,7 @@ struct Silvio {
             return ["Reactjs", "TypeScript", "React-native", "Node.js"].joined(separator: ", ")
             
         case .tools:
-            return "\(VsCode) + \(Figma) + \(Git) + \(Insomnia)"
+            return "\(VSCode) + \(Figma) + \(Git) + \(Insomnia)"
         }
     }
     
