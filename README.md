@@ -13,7 +13,7 @@ enum Quest {
 
 struct Silvio {
     var quest: Quest
-    var developerExperience: Int = 2 // Experiência mínima
+    var developerExperience: Int = 2 
 
     func getAnswer() -> String {
         switch quest {
